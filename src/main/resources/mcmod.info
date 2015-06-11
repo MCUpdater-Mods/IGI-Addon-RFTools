@@ -1,0 +1,16 @@
+[
+{
+  "modid": "IGI|RFToolsIntegration",
+  "name": "InGame-Info-XML RFTools Integration",
+  "description": "Adds tags for RFTools data",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["smbarbour"],
+  "credits": "McJty for RFTools, and Lunatrius for InGame-Info-XML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
