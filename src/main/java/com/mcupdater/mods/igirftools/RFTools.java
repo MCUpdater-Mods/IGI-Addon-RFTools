@@ -6,7 +6,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 
-@Mod(modid = "IGI|RFToolsIntegration", name = "InGameInfo RFTools Integration", version = "1.0")
+@Mod(modid = "IGI|RFToolsIntegration", name = "InGameInfo RFTools Integration", version = "1.0", dependencies = "required-after:InGameInfoXML;required-after:rftools")
 public class RFTools
 {
 	@Mod.EventHandler
