@@ -1,6 +1,6 @@
 [
 {
-  "modid": "IGI|RFToolsIntegration",
+  "modid": "igi|rftoolsintegration",
   "name": "InGame-Info-XML RFTools Integration",
   "description": "Adds tags for RFTools data",
   "version": "${version}",

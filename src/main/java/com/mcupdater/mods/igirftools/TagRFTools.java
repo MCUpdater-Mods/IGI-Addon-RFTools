@@ -18,8 +18,8 @@ public abstract class TagRFTools extends Tag
 		@Override
 		public String getValue() {
 			try {
-				int id = player.worldObj.provider.getDimension();
-				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.worldObj);
+				int id = player.world.provider.getDimension();
+				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.world);
 				DimensionInformation dimensionInformation = dimensionManager.getDimensionInformation(id);
 				return String.valueOf(dimensionInformation != null);
 			} catch (Throwable e) {
@@ -33,8 +33,8 @@ public abstract class TagRFTools extends Tag
 		@Override
 		public String getValue() {
 			try {
-				int id = player.worldObj.provider.getDimension();
-				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.worldObj);
+				int id = player.world.provider.getDimension();
+				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.world);
 				DimensionInformation dimensionInformation = dimensionManager.getDimensionInformation(id);
 				if (dimensionInformation == null) {
 					return "N/A";
@@ -54,8 +54,8 @@ public abstract class TagRFTools extends Tag
 		@Override
 		public String getValue() {
 			try {
-				int id = player.worldObj.provider.getDimension();
-				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.worldObj);
+				int id = player.world.provider.getDimension();
+				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.world);
 				DimensionInformation dimensionInformation = dimensionManager.getDimensionInformation(id);
 				if (dimensionInformation == null) {
 					return "N/A";
@@ -73,8 +73,8 @@ public abstract class TagRFTools extends Tag
 		@Override
 		public String getValue() {
 			try {
-				int id = player.worldObj.provider.getDimension();
-				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.worldObj);
+				int id = player.world.provider.getDimension();
+				RfToolsDimensionManager dimensionManager = RfToolsDimensionManager.getDimensionManager(player.world);
 				DimensionInformation dimensionInformation = dimensionManager.getDimensionInformation(id);
 				if (dimensionInformation == null) {
 					return "N/A";

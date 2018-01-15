@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(useMetadata = true, modid = "IGI|RFToolsIntegration")
+@Mod(useMetadata = true, modid = "igi|rftoolsintegration")
 public class IGIRFTools
 {
 	public static ModMetadata metadata;
